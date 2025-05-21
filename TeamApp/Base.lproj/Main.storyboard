@@ -1,24 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TeamApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nu2-NS-IJP">
+                                <rect key="frame" x="166.33333333333334" y="79" width="60.333333333333343" height="28.666666666666671"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C8E-cP-bey">
+                                <rect key="frame" x="16" y="127.66666666666669" width="361" height="394.00000000000006"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="QZc-oo-EYw">
+                                        <rect key="frame" x="16" y="15.999999999999986" width="329" height="208"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="208" id="I3R-Qy-tfY"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="oKp-O6-rdq">
+                                        <rect key="frame" x="16" y="240" width="90.666666666666671" height="133.66666666666663"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS 스타터 7기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jN9-tv-wNl">
+                                                <rect key="frame" x="0.0" y="0.0" width="90.666666666666671" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내 꿈은 마스터" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gin-8G-cNg">
+                                                <rect key="frame" x="0.0" y="25" width="90.666666666666671" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AyQ-id-en9">
+                                                <rect key="frame" x="0.0" y="52.333333333333307" width="90.666666666666671" height="81.333333333333314"/>
+                                                <string key="text">설명:
+특징:
+목표:
+약속:</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstItem="QZc-oo-EYw" firstAttribute="leading" secondItem="C8E-cP-bey" secondAttribute="leading" constant="16" id="D2i-1N-Vj0"/>
+                                    <constraint firstItem="oKp-O6-rdq" firstAttribute="top" secondItem="QZc-oo-EYw" secondAttribute="bottom" constant="16" id="FMd-0c-OU3"/>
+                                    <constraint firstItem="QZc-oo-EYw" firstAttribute="top" secondItem="C8E-cP-bey" secondAttribute="top" constant="16" id="Fua-Si-lTp"/>
+                                    <constraint firstAttribute="trailing" secondItem="QZc-oo-EYw" secondAttribute="trailing" constant="16" id="UcM-cK-aBV"/>
+                                    <constraint firstItem="oKp-O6-rdq" firstAttribute="leading" secondItem="C8E-cP-bey" secondAttribute="leading" constant="16" id="Xua-WX-K5l"/>
+                                    <constraint firstAttribute="height" constant="394" id="ra0-E5-0Ns"/>
+                                    <constraint firstItem="QZc-oo-EYw" firstAttribute="centerX" secondItem="C8E-cP-bey" secondAttribute="centerX" id="sBv-mx-hlU"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team Member" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3v-Di-EPR">
+                                <rect key="frame" x="117.33333333333333" y="552" width="158.33333333333337" height="28.666666666666629"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="p6p-yu-C4E">
+                                <rect key="frame" x="16" y="600.66666666666663" width="361" height="32"/>
+                                <segments>
+                                    <segment title="송명균"/>
+                                    <segment title="김이든"/>
+                                    <segment title="이태경"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="C8E-cP-bey" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4QA-lP-55n"/>
+                            <constraint firstItem="p6p-yu-C4E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MMJ-9t-uId"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p6p-yu-C4E" secondAttribute="trailing" constant="16" id="SeV-wN-GXT"/>
+                            <constraint firstItem="p6p-yu-C4E" firstAttribute="top" secondItem="f3v-Di-EPR" secondAttribute="bottom" constant="20" id="b2n-8f-omm"/>
+                            <constraint firstItem="C8E-cP-bey" firstAttribute="top" secondItem="Nu2-NS-IJP" secondAttribute="bottom" constant="20" id="bnv-CZ-U3C"/>
+                            <constraint firstItem="Nu2-NS-IJP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="79" id="hc3-3s-Rex"/>
+                            <constraint firstItem="C8E-cP-bey" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mew-Yd-Y6x"/>
+                            <constraint firstItem="f3v-Di-EPR" firstAttribute="top" secondItem="C8E-cP-bey" secondAttribute="bottom" constant="30.329999999999998" id="nE0-d9-nr4"/>
+                            <constraint firstItem="p6p-yu-C4E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nMp-fU-xH7"/>
+                            <constraint firstItem="Nu2-NS-IJP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="om1-bn-V56"/>
+                            <constraint firstItem="f3v-Di-EPR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vmv-jq-zyI"/>
+                            <constraint firstItem="C8E-cP-bey" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-16" id="yQo-w0-gEJ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="teamImage" destination="QZc-oo-EYw" id="6dR-Wj-7hN"/>
+                        <outlet property="teamView" destination="C8E-cP-bey" id="8ah-V1-MPo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="351" height="419"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
