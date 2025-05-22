@@ -20,10 +20,20 @@
 
 <hr>
 
+<h2>💻 코딩 및 구현</h2>
+<ul>
+  <li><strong>Struct</strong>와 <strong>switch 함수</strong>를 활용하여 구조화된 코드 구현</li>
+  <li><strong>매개변수를 활용한 함수 작성</strong>으로 반복되는 코드 최소화</li>
+  <li><strong>StackView</strong>를 활용해 UI 요소들을 유연하고 일관성 있게 배치함으로써, <strong>오토레이아웃</strong> 문제를 간단하게 해결하고 유지보수를 용이하게 구성</li>
+  <li>글 내용이 변경되어 길어지더라도 레이아웃이 깨지지 않도록 <strong>StackView</strong>와 <strong>오토레이아웃</strong>을 적절히 조합하여, 다양한 텍스트 길이에도 안정적인 UI를 유지할 수 있도록 설계</li>
+</ul>
+  
+<hr>
+  
 <h2>🧠 기획 및 디자인</h2>
 <p>
   팀 소개앱은 정보를 전달하는 게 목적이라고 느껴서, <strong>최대한 유저의 클릭을 줄이는 방식</strong>으로 설계했습니다.<br>
-  그래서 <mark>화면 전환 없이 탭 메뉴</mark>로 멤버 정보가 바뀌도록 구성했습니다.<br><br>
+  그래서 <strong>화면 전환 없이 탭 메뉴</strong>로 멤버 정보가 바뀌도록 구성했습니다.<br><br>
 
   💡 코드를 줄이기 위해 <strong>같은 구조의 4개 상자</strong>를 재사용했으며,<br>
   <strong>Figma</strong>를 이용하여 오토레이아웃에 신경 써서 디자인했습니다.<br><br>
@@ -31,10 +41,4 @@
   🎨 디자인 컨셉은 <strong>뉴모피즘 (Neumorphism)</strong>입니다.
 </p>
 
-<hr>
-
-<h2>💻 코딩</h2>
-<ul>
-  <li><strong>Struct</strong>와 <strong>switch 함수</strong>를 활용하여 구조화된 코드 구현</li>
-  <li><strong>매개변수를 활용한 함수 작성</strong>으로 반복되는 코드 최소화</li>
 </ul>
