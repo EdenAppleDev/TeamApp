@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "team.jpg 21-00-28-945.jpg",
+      "filename" : "team.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "team@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "team@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
