@@ -7,7 +7,7 @@ extension UIView {
         darkShadowColor: UIColor = UIColor.black.withAlphaComponent(0.2),
         shadowRadius: CGFloat = 6,
         shadowOffset: CGFloat = 6,
-        backgroundColor: UIColor = UIColor.systemGray6
+        backgroundColor: UIColor = UIColor(red: 242/255.0, green: 242/255.0, blue: 247/255.0, alpha: 1.0)
     ) {
         self.backgroundColor = backgroundColor
         self.layer.cornerRadius = cornerRadius
