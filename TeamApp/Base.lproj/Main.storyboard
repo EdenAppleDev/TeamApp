@@ -173,7 +173,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDc-4w-Z8J" userLabel="TeamView">
                                                 <rect key="frame" x="16" y="700.66666666666663" width="370" height="388.33333333333337"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="송명균" translatesAutoresizingMaskIntoConstraints="NO" id="1yY-wx-Alm">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="song" translatesAutoresizingMaskIntoConstraints="NO" id="1yY-wx-Alm">
                                                         <rect key="frame" x="16" y="16" width="338" height="208"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="208" id="laF-Tm-g7q"/>
@@ -354,7 +354,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="song" width="440" height="271"/>
         <image name="team" width="440" height="271"/>
-        <image name="송명균" width="440" height="271"/>
     </resources>
 </document>
