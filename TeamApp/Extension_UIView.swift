@@ -2,12 +2,12 @@ import UIKit
 
 extension UIView {
     func applyNeumorphism(
-        cornerRadius: CGFloat = 12,
-        lightShadowColor: UIColor = .white,
-        darkShadowColor: UIColor = UIColor.black.withAlphaComponent(0.2),
-        shadowRadius: CGFloat = 6,
-        shadowOffset: CGFloat = 6,
-        backgroundColor: UIColor = UIColor(red: 242/255.0, green: 242/255.0, blue: 247/255.0, alpha: 1.0)
+        cornerRadius: CGFloat = 9,
+        lightShadowColor: UIColor = UIColor(white: 1.0, alpha: 1.0),
+        darkShadowColor: UIColor = UIColor.black.withAlphaComponent(0.3),
+        shadowRadius: CGFloat = 4,
+        shadowOffset: CGFloat = 3,
+        backgroundColor: UIColor = UIColor(red: 230/255.0, green: 228/255.0, blue: 235/255.0, alpha: 1.0)
     ) {
         self.backgroundColor = backgroundColor
         self.layer.cornerRadius = cornerRadius
